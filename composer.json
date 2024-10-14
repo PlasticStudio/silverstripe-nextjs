@@ -15,7 +15,7 @@
   ],
   "require": {
     "silverstripe/silverstripe-headless": "dev-feature/update",
-    "symbiote/silverstripe-gridfieldextensions": "^3.2"
+    "symbiote/silverstripe-gridfieldextensions": "^3.2 || ^4.0"
   },
   "repositories": [
     {
