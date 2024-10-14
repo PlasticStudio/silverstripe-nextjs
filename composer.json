@@ -14,9 +14,15 @@
     }
   ],
   "require": {
-    "silverstripe/silverstripe-headless": "dev-main",
+    "silverstripe/silverstripe-headless": "dev-feature/update",
     "symbiote/silverstripe-gridfieldextensions": "^3.2"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/PlasticStudio/silverstripe-headless.git"
+    }
+  ],
   "autoload": {
     "psr-4": {
       "SilverStripe\\NextJS\\": "src/"
